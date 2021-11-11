@@ -10,7 +10,7 @@ A interactive dsicord BOT (Bar-Lak) that displays a progress bar to discord serv
 - !meta-> Usuário insere a meta do montante a ser alcançado ex: !meta 3000
 - !atual-> Usuário insere o valor do montante atual ex: !atual 1500
 
-- O comando !barra é o mais importante e basicamente irá mostrar isso aqui se digitado:
+- O comando !barra é o mais importante e basicamente irá mostrar isso aqui no terminal do Visual Studio se digitado:
 
   Meta da Tesouraria = 100 Gold  :coin:
 
