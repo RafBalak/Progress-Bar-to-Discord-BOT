@@ -1,4 +1,4 @@
-# Progress-Bar-to-Discord-BOT
+# Progress-Bar-to-Discord-(BOT)
 A interactive dsicord BOT (Bar-Lak) that displays a progress bar to discord servers
 
 (readme in PT-BR language)
