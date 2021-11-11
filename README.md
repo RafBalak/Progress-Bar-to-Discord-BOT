@@ -29,6 +29,9 @@ A interactive dsicord BOT (Bar-Lak) that displays a progress bar to discord serv
 - É permitido o uso e aprimoramento desse bot para qualquer um que adquirir o dowload dos meus códigos
 
 - libraries used in Visual Studio:
+   
    https://nodejs.org/en/
+   
    https://www.npmjs.com/package/string-progressbar
+   
    https://discord.js.org/#/
