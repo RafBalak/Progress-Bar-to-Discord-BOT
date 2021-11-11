@@ -20,10 +20,10 @@ A interactive dsicord BOT (Bar-Lak) that displays a progress bar to discord serv
 
 - Fica com essa cara no discord e eu achei bem legal
 
-![image](https://user-images.githubusercontent.com/31516209/141356867-b5a138eb-5009-41c6-8f60-fb373c9c70ff.png)
+  ![image](https://user-images.githubusercontent.com/31516209/141356867-b5a138eb-5009-41c6-8f60-fb373c9c70ff.png)
 
 - E quando ultrapassar a meta o bot exibe uma mensagem diferente de comemoração, achei bom como ficou.
 
-![image](https://user-images.githubusercontent.com/31516209/141357715-1dada135-7eaf-472c-85f3-0140166c5be3.png)
+  ![image](https://user-images.githubusercontent.com/31516209/141357715-1dada135-7eaf-472c-85f3-0140166c5be3.png)
 
 - É permitido o uso e aprimoramento desse bot para qualquer um que adquirir o dowload dos meus códigos
