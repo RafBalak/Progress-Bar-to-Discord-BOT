@@ -12,12 +12,13 @@ A interactive dsicord BOT (Bar-Lak) that displays a progress bar to discord serv
 
 - O comando !barra é o mais importante e basicamente irá mostrar isso aqui se digitado:
 
-Meta da Tesouraria = 100 Gold  :coin:
-Valor Atual = 10 Gold  :coin: 
+  Meta da Tesouraria = 100 Gold  :coin:
 
- [▬🔘▬▬▬▬▬▬▬▬▬▬▬▬▬] [10.00%]
+  Valor Atual = 10 Gold  :coin: 
 
-- Fica mais com essa cara no discord e eu achei bem legal
+  [▬🔘▬▬▬▬▬▬▬▬▬▬▬▬▬] [10.00%]
+
+- Fica com essa cara no discord e eu achei bem legal
 
 ![image](https://user-images.githubusercontent.com/31516209/141356867-b5a138eb-5009-41c6-8f60-fb373c9c70ff.png)
 
