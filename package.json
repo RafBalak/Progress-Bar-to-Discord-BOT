@@ -17,6 +17,9 @@
   "bugs": {
     "url": "https://github.com/Mendes11/Progress-Bar-to-Discord-BOT/issues"
   },
+  "engines": {
+    "node": "^16.0"
+  },
   "homepage": "https://github.com/Mendes11/Progress-Bar-to-Discord-BOT#readme",
   "dependencies": {
     "babel-cli": "^6.0.0",
