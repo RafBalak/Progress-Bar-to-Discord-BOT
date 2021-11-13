@@ -60,17 +60,19 @@ export class BarLakBot{
     }
 
     writeRanking = () => {
-        let ranking = "Ranking de Doadores!!"
+        let ranking = ":moneybag: Ranking de Doadores!! :moneybag:"
         if (!this.ranking) {
             return
         }
-        ranking += "\n-----------------------------\n"
-        Object.entries(this.ranking).map(entry => {
-            console.log(entry[0])
-            ranking += `${entry[0]} ------- ${entry[1]}\n`
+        ranking += "\n-----------------------------------------\n\n"
+        Object.entries(this.ranking).sort((a, b) => a[1] - b[1]).reverse().map((entry, position) => {
+            if (position === 0) {
+                ranking += `:trophy: `
+            }
+            ranking += `${position + 1}º: ${entry[0]} = ${entry[1]}\n`
         })
             
-        ranking += "\n-----------------------------\n"
+        ranking += "\n-----------------------------------------\n"
         return ranking
     }
 
