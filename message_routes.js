@@ -81,7 +81,7 @@ export class BarLakBot{
                 channel.send(`Defina o valor da meta a ser atingida (!ajuda para ver os comandos)`);
     
             } else {
-                const split = splitBar(this.meta, this.current);
+                const split = splitBar(this.meta, this.current, 15);
                 var ajuste = + split[1]
                 if (+ split[1] < 100){
                 msg += (`\nMeta da Tesouraria = ${String (this.meta)} Gold  :coin:  \nValor Atual = ${String (this.current)} Gold  :coin: \n\n ${"[" + split[0] + "] [" + ajuste.toFixed(2) + "%]"}\n`);
