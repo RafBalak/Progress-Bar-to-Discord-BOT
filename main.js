@@ -16,16 +16,20 @@ const bots = {}
 
 client.on("guildCreate", guild => {
     console.log("Bot Joined a guild: " + guild.name)
-    bots[guild] = new BarLakBot();
+    bots[guild] = new BarLakBot(guild);
     guild.client.user.setStatus("online")
+
 });
 
 client.on("ready", () => {
     console.log("Bot Ready")
-    client.guilds.forEach((guild) => bots[guild] = new BarLakBot());
-    client.user.setStatus("online")
+    client.guilds.fetch().then((guilds) => guilds.forEach((guild) =>{
+        bots[guild] = new BarLakBot(guild);
+        client.user.setStatus("online")
+
+    }))
 });
 
-client.on('message', message => {
-    bot.routeMessage(message)       
+client.on('messageCreate', message => {
+    bots[message.guild].routeMessage(message)       
 });
